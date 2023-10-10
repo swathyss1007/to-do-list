@@ -1,0 +1,55 @@
+.app-div{
+
+}
+
+.main-div{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.btn-add{
+    background-color: blue;
+    color: white;
+    border-color: blue;
+
+}
+
+.title{
+   text-align: center;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+
+.list-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    height: auto;
+    max-width: 275px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+.delete-icon{
+    height: 15px;
+    width: 15px;
+}
+
+.edit-icon{
+    height: 15px;
+    width: 15px;
+}
