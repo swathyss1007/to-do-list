@@ -1,0 +1,41 @@
+.modal-BG{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    width: fit-content;
+    display: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+}
+
+.close-symbol{
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(215, 29, 29);
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.delete-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-right: auto;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.cancel-btn{
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 15px;
+    padding: 5px;
+    cursor: pointer;
+}

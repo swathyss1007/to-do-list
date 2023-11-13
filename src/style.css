@@ -1,5 +1,15 @@
-.app-div{
+body{
+   background-image:url(https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?w=1060&t=st=1699894568~exp=1699895168~hmac=4afeb86498e9e07d08d501a0e389f812f0ddfbe08c28492cee782cb42d50aa84) ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+}
 
+.app-div{
+    position: relative;
+    z-index: 1; 
+    color: white;
 }
 
 .main-div{ 
@@ -11,8 +21,12 @@
 .btn-add{
     background-color: blue;
     color: white;
-    border-color: blue;
-
+    border:none;
+    border-radius: 4px;
+    padding: 3px;
+    height: 25px;
+    width: 50px;
+    margin-left: 5px;
 }
 
 .title{
@@ -31,25 +45,46 @@
     align-items: center;
     justify-content: center;
     padding: 5px;
-    border: 2px solid;
+    border: 1px solid;
     border-radius: 5px;
     height: auto;
-    max-width: 275px;
+    min-width: 275px;
     margin-bottom: 10px;
     word-wrap: break-word;
+    transition: all 0.2s linear;
+    box-shadow: 3px 3px rgb(121, 110, 110);
 }
 
 li{
     list-style-type: none;
+    margin-right: auto;
+    padding: 3px;
 }
 
+.list-div:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
 
-.delete-icon{
+.delete-icon,.edit-icon{
     height: 15px;
     width: 15px;
+    margin-left: 8px;
+    margin-right: 2px; 
+    background-color: rgb(211, 223, 223);
+    border-radius: 35px;
+    padding:6px;
+    text-align: center;
+    transition: all 0.2s linear;
 }
 
-.edit-icon{
-    height: 15px;
-    width: 15px;
+.delete-icon:hover, .edit-icon:hover{
+    transform:scale(1.2)
 }
+
+input{
+    border: solid black 1px;
+    height: 25px;
+    border-radius: 5px;
+}
+

@@ -1,7 +1,9 @@
 import React from "react"
 import Header from "./components/Header"
 import ListOfTask from "./components/ListOfTask"
-import Style from "./style.css"
+import "./style.css"
+import "./modal.css"
+
 
 export default function App(){
 
@@ -14,6 +16,7 @@ export default function App(){
                 list={list}
                 setList={setList}
             />
+            
             <ListOfTask 
                 list={list}
                 setList={setList}
