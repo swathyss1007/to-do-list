@@ -10,6 +10,10 @@ export default function Header(props){
 
     function handleClick(event){
         event.preventDefault();
+        if(input === ""){
+            alert("Please enter the task")
+            return
+        }
         props.setList(prevState=>{
             return([...prevState,input])
         })
